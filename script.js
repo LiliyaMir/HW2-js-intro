@@ -19,10 +19,19 @@ const d2 = 3;
 console.log(d1/d2);
 
 console.log('#6')
-console.log('1 2 3 4 5');
+let mas1 = [];
+for (let i=1; i <= 5; i++) {
+  mas1.push(i);
+}
+console.log((mas1.join(' ')));
+
 
 console.log('#7')
-console.log('5 4 3 2 1');
+let mas2 = [];
+for (let j=5; j>=1; j--) {
+  mas2.push(j);
+}
+console.log((mas2.join(' ')));
 
 console.log('#8')
 function getMarkInfo(condition) {
